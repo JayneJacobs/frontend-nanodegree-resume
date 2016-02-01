@@ -23,55 +23,55 @@ bio.role = "Systems Integration Architecture";
 bio.name = "Jayne Jacobs";
 bio.skills = skills;
 bio["city"] = "Philadelphia";
-
-var work = {
- 	"jobs": [
-	{
- 		"position":"Systems Integration Architect",
-		"companyName" : "IntePros LLC",
-		"description" :"This job ",
- 		"years" : 2014,
+var work = 
+ {
+ 	"jobs": [{"
+ 		"position":"Systems Integration Architect"
+		"companyName" = "IntePros LLC",
+		"description" = "This job "
+ 		"years" = 2014,
  		"endYear": "present",
  		"city": "Philadelphia"
  	}, {
- 		"position":"Systems Integration Architect",
-		"companyName": "Verizon Inc",
-		"description" : "This job ",
- 		"years" : 2011,
+ 		"position":"Systems Integration Architect"
+		"companyName" = "Verizon Inc",
+		"description" = "This job "
+ 		"years" = 2011,
  		"endYear": 2014,
  		"city": "Philadelphia"
  	}
   ]
- }
+ };
  
-var project = {
+var project = 
+ {
  	"projects": [{
- 		"system":"Linear Segmented Advertising",
-		"role" : "Integration Architect",
-		"description" :"Cable Television Linear systems Alternate Ad Insertion with Decision Engine",
- 		"years" : 2014,
+ 		"system":"Linear Segmented Advertising"
+		"role" = "Integration Architect",
+		"description"="Cable Television Linear systems Alternate Ad Insertion with Decision Engine"
+ 		"years" = 2014,
  		"endYear": "present",
  		"city": "Philadelphia"
  	}, {
- 		"system":"Digital Rights Management",
-		"role" : "Integration Architect",
-		"description" : "Key Management, Access Control, and Certificate Management",
- 		"years" : 2012,
+ 		"system":"Digital Rights Management"
+		"role" = "Integration Architect",
+		"description"="Key Management, Access Control, and Certificate Management"
+ 		"years" = 2012,
  		"endYear": "2014",
  		"city": "Philadelphia"
- 	},
+ 	}
 	{
- 		"system":"IP Video Ad Insertion",
-		"role" : "Integration Architect",
-		"description":"Internet IPTV Television systems SCTE 130 based Targetted Ad Insertion with server-side Decision Engine",
- 		"years" : 2011,
+ 		"system":"IP Video Ad Insertion"
+		"role" = "Integration Architect",
+		"description"="Internet IPTV Television systems SCTE 130 based Targetted Ad Insertion with server-side Decision Engine"
+ 		"years" = 2011,
  		"endYear": "2014",
  		"city": "Philadelphia"
- 	},
+ 	}
 	{
- 		"system":"Video System Control and Monitoring",
-		"role" : "System Design",
- 		"years" : 2005,
+ 		"system":"Video System Control and Monitoring"
+		"role" = "System Design",
+ 		"years" = 2005,
  		"endYear": "2011",
  		"city": "Philadelphia"
  	}
@@ -97,18 +97,19 @@ var education = {
  		"major": "Project Management",
  		"city": "Minnisota"
  	}
-  ],
-  	"onlineCourses": [
+  ]
+ },
+	"onlineCourses":  [
 	{"title":"JavaScript",
 	"school": "Udacity",
 	"dates":2016,
 	"url":"http://www.udacity.com/course/ud804"
-	},
+	}
 	{"title":"Computer Science",
 	"school": "Udacity",
 	"dates":2016,
 	"url":"http://www.udacity.com/course/ud803"
-	},
+	}
 	{"title":"How to use Git",
 	"school": "Udacity",
 	"dates":2016,

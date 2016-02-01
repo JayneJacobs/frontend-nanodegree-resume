@@ -1,0 +1,70 @@
+educationCity = "Minnisota";
+school = "www.capella.edu"
+yearStart = 1999
+yearEnd = 2003
+degree = "Masters of Science"
+major = "Network Engineering"
+
+educationCity1 = "Minnisota";
+school1 = "www.capella.edu"
+yearStart1 = 1996
+yearEnd1 = 1999
+degree1 = "Project Management"
+major1 = "BS"
+var education = [{"school":school, 
+"yearStart":yearStart, 
+"yearEnd":yearEnd, degree:degree, major:major}
+{"school":school1, 
+"yearStart":yearStart1, 
+"yearEnd":yearEnd1,
+degree:degree1, major:major1}];
+
+var educationCity="Minnisota";
+var school="www.capella.edu";
+var yearStart=1999;
+var yearEnd=2003;
+var degree="Masters of Science";
+var major="Network Engineering";
+var educationCity1="Minnisota";
+var school1="www.capella.edu";
+var yearStart1=1996;
+var yearEnd1=1999;
+var degree1="Project Management";
+var major1="BS";
+ {
+ 	"schools": [{
+ 		"school": "www.capella.edu",
+ 		"yearStart": 1999,
+ 		"yearEnd": 2003,
+ 		"degree": "Masters of Science",
+ 		"major": "Network Engineering",
+ 		"city": "Minnisota"
+ 	}, {
+ 		"school": "www.capella.edu",
+ 		"yearStart": 1996,
+ 		"yearEnd": 1999,
+ 		"degree": "Baccalaurs of Science",
+ 		"major": "Project Management",
+ 		"city": "Minnisota"
+ 	}]
+ }
+var education={
+    "schools2": [
+        {
+            "school": school,
+            "yearStart": yearStart,
+            "yearEnd": yearEnd,
+            "degree": degree,
+            "major": major,
+            "city": educationCity
+        },
+        {
+            "school": school1,
+            "yearStart": yearStart1,
+            "yearEnd": yearEnd1,
+            "degree": degree1,
+            "major": major1,
+            "city": educationCity1
+        }
+    ]
+};

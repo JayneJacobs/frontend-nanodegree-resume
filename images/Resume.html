@@ -1,20 +1,6 @@
 <!DOCTYPE html>
-
-<!--
-This is an HTML document. It contains information about how elements in the website
-are arranged. In other words, it describes the layout of a website.
-
-I can't wait to see the resumes you put together!
-
-Cameron Pittman, Udacity Course Developer
--->
-
-<!--
-The <head> of a website generally links to important resources the page will
-need to load. You'll see a lot of <link>s to CSS files for styles and
-<scripts> for JavaScript files to build interactions.
--->
-<head>
+<!-- saved from url=(0094)file:///C:/LocalDocuments/Programing/JavaScript/projects/frontend-nanodegree-resume/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <!-- This tells the browser how to read the document. -->
   <meta charset="utf-8">
 
@@ -22,7 +8,7 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
   <title>Resume</title>
 
   <!-- Load the page styles. -->
-  <link href="css/style.css" rel="stylesheet">
+  <link href="./Resume_files/style.css" rel="stylesheet">
 
   <!--
   jQuery is a common JavaScript library for reading and making changes to the
@@ -37,10 +23,10 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
   the DOM. jQuery is fast and easy to use, but it doesn't do anything
   you can't accomplish with vanilla (regular) JavaScript.
   -->
-  <script src="js/jQuery.js"></script>
+  <script src="./Resume_files/jQuery.js"></script>
 
   <!-- More on helper.js in the class -->
-  <script src="js/helper.js"></script>
+  <script src="./Resume_files/helper.js"></script>
 
   <!--
   Uncomment the <script> tag below when you're ready to add an interactive
@@ -59,23 +45,23 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
     resume below. You can pretty easily figure out what each section will
     display by looking at the id or at what's written between the <h2> tags.
     -->
-    <div id="header" class="center-content clear-fix">
-      <ul id="topContacts" class="flex-box"></ul>
+    <div id="header" class="center-content clear-fix" style="display: none;">
+      <ul id="topContacts" class="flex-box" style="display: none;"></ul>
     </div>
     <div style="clear: both;"></div>
-    <div id="workExperience" class="gray">
+    <div id="workExperience" class="gray" style="display: none;">
       <h2>Work Experience</h2>
     </div>
-    <div id="projects">
+    <div id="projects" style="display: none;">
       <h2>Projects</h2>
     </div>
-    <div id="education" class="gray">
+    <div id="education" class="gray" style="display: none;">
       <h2>Education</h2>
     </div>
-    <div id="mapDiv">
+    <div id="mapDiv" style="display: none;">
       <h2>Where I've Lived and Worked</h2>
     </div>
-    <div id="lets-connect" class="dark-gray">
+    <div id="lets-connect" class="dark-gray" style="display: none;">
       <h2 class="orange center-text">Resume</h2>
         <ul id="footerContacts" class="flex-box">
       </ul>
@@ -87,7 +73,7 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
   writing. In resumeBuilder.js, you'll be writing code that builds the resume
   dynamically when this website, index.html, is opened.
   -->
-  <script src="js/resumeBuilder.js"></script>
+  <script src="./Resume_files/resumeBuilder.js"></script>
 
 
   <!--
@@ -138,5 +124,6 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
       document.getElementById('mapDiv').style.display = 'none';
     }
   </script>
-</body>
-</html>
+
+
+</body></html>
